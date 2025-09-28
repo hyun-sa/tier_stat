@@ -34,6 +34,17 @@ chmod +x tier_stat.sh
 
 # 3. Run
 ./tier_stat.sh
+
+# HELP
+./tier_stat.sh -h
+Usage: tier_stat.sh [-a] [-n interval] [-h]
+
+Summarizes or monitors memory usage per memory tier.
+
+Options:
+  -a            Show detailed memory usage for each individual node within a tier.
+  -n <seconds>  Run continuously, refreshing the output every <seconds>.
+  -h            Display this help message and exit.
 ```
 
 ## EXAMPLE
